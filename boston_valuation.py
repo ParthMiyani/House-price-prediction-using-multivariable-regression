@@ -88,5 +88,5 @@ def get_dollar_estimate(rm, ptratio, chas=False, large_range=True):
     rounded_low = np.around(dollar_low, -2)
 
     print(f'The estimated property value is {rounded_est}.')
-    print(f'At {conf}% confidence the valuation rande is')
+    print(f'At {conf}% confidence the valuation range is')
     print(f'USD {rounded_low} at the lower end to USD {rounded_hi} at the higher end')
